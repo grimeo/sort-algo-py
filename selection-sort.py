@@ -7,6 +7,6 @@ def toSelectionSort(array):
             if array[j] < array[min]:                           # if the second  selected index is smaller
                 min = j                                    # smallest is the present index
         array[i], array[min] = array[min], array[i]             # swap the values for sorting
-                                                    
+                                                  
 toSelectionSort(dummyArray)
 print(dummyArray)
